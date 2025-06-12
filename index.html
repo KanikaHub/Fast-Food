@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Junk Food Store</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">FAST<span>Food</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+      <div class="nav-icons">
+        <button aria-label="Favorite" class="icon-btn">&#10084;</button>
+        <button aria-label="Cart" class="icon-btn">&#128722;</button>
+        <button aria-label="User" class="icon-btn">&#128100;</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" title="Back to Top">&#8679;</button>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Delicious <span>Fast Food</span> Collection</h1>
+      <p>
+        Indulge in the tastiest junk food delights. From crispy fries to cheesy burgers, satisfy your cravings with our exclusive collection.
+      </p>
+      <button class="btn shop-btn">Order Now</button>
+    </div>
+    <div class="hero-image">
+      <img src="./image/1.avif" alt="Junk Food" />
+      <div class="circle-bg"></div>
+    </div>
+  </section>
+
+  <section id="menu" class="products-section">
+    <h2>Our Products</h2>
+    <div class="products-grid">
+      <article class="product-card">
+        <img src="./image/2.avif" alt="Burger" />
+        <h3>Burger</h3>
+        <p>Juicy grilled beef patty with cheese and fresh veggies.</p>
+        <p class="price">$5.99</p>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+        </div>
+        <button class="btn add-cart-btn">Add To Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="./image/3.avif" alt="Fries" />
+        <h3>French Fries</h3>
+        <p>Crispy golden fries with a sprinkle of sea salt.</p>
+        <p class="price">$2.99</p>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <button class="btn add-cart-btn">Add To Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="./image/4.webp" alt="Pizza" />
+        <h3>Pizza</h3>
+        <p>Cheesy pepperoni pizza with a crispy crust.</p>
+        <p class="price">$8.99</p>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+        </div>
+        <button class="btn add-cart-btn">Add To Cart</button>
+      </article>
+      <article class="product-card">
+        <img src="./image/5.webp" alt="Hot Dog5" />
+        <h3>Hot Dog</h3>
+        <p>Classic hot dog with mustard and ketchup.</p>
+        <p class="price">$4.99</p>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+        </div>
+        <button class="btn add-cart-btn">Add To Cart</button>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="product-highlight">
+    <div class="highlight-images">
+      <img src="./image/6.avif" alt="Featured Junk Food" />
+      <img src="./image/7.avif" alt="Featured Junk Food" />
+      <!-- <img src="https://images.unsplash.com/photo-1601924582975-1a7a7a1a1a1a?auto=format&fit=crop&w=300&q=80" alt="Featured Junk Food" />
+      <img src="https://images.unsplash.com/photo-1571091718767-18a1a1a1a1a1?auto=format&fit=crop&w=300&q=80" alt="Featured Junk Food" /> -->
+    </div>
+    <div class="highlight-info">
+      <h2>About Our Junk Food</h2>
+      <p>
+        Our junk food is made fresh daily with the finest ingredients. We pride ourselves on delivering delicious, satisfying meals that bring joy to your taste buds.
+      </p>
+      <button class="btn shop-btn">Learn More</button>
+    </div>
+    <div class="highlight-info">
+      <h2>About Our Junk Food</h2>
+      <p>
+        Our junk food is made fresh daily with the finest ingredients. We pride ourselves on delivering delicious, satisfying meals that bring joy to your taste buds.
+      </p>
+      <button class="btn shop-btn">Learn More</button>
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews-section">
+    <h2>Customer's Reviews</h2>
+    <div class="reviews-grid">
+      <article class="review-card">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ranidi Lochana" />
+        <h3>Ranidi Lochana</h3>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Debitis, amet nesciunt voluptatem cum architecto ipsum vero nulla voluptatibus dolorum modi assumenda eum?
+        </p>
+      </article>
+      <article class="review-card">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Sayuru Tharanga" />
+        <h3>Sayuru Tharanga</h3>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Debitis, amet nesciunt voluptatem cum architecto ipsum vero nulla voluptatibus dolorum modi assumenda eum?
+        </p>
+      </article>
+      <article class="review-card">
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Senuda Dilwan" />
+        <h3>Senuda Dilwan</h3>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Debitis, amet nesciunt voluptatem cum architecto ipsum vero nulla voluptatibus dolorum modi assumenda eum?
+        </p>
+      </article>
+      <article class="review-card">
+        <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Kaveesha Vidurangi" />
+        <h3>Kaveesha Vidurangi</h3>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Debitis, amet nesciunt voluptatem cum architecto ipsum vero nulla voluptatibus dolorum modi assumenda eum?
+        </p>
+      </article>
+      <article class="review-card">
+        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="John Deo" />
+        <h3>John Deo</h3>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Debitis, amet nesciunt voluptatem cum architecto ipsum vero nulla voluptatibus dolorum modi assumenda eum?
+        </p>
+      </article>
+      <article class="review-card">
+        <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Charith Aruna" />
+        <h3>Charith Aruna</h3>
+        <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Debitis, amet nesciunt voluptatem cum architecto ipsum vero nulla voluptatibus dolorum modi assumenda eum?
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">&#128666;</div>
+        <h3>Fast Delivery</h3>
+        <p>Get your food delivered hot and fresh in no time.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#8635;</div>
+        <h3>10 Days Replacement</h3>
+        <p>If you are not satisfied, we offer a 10-day replacement policy.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128222;</div>
+        <h3>24 x 7 Support</h3>
+        <p>Our support team is available around the clock to assist you.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="login" class="login-section">
+    <div class="login-image">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=400&q=80" alt="Junk Food" />
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=400&q=80" alt="Junk Food" />
+    </div>
+    <div class="login-form">
+      <h2>Welcome Back!</h2>
+      <form>
+        <label for="username">User Name</label>
+        <input type="text" id="username" placeholder="User Name" />
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password" />
+        <a href="#" class="forgot-link">Forgot Password?</a>
+        <button type="submit" class="btn login-btn">Login</button>
+      </form>
+      <div class="social-icons">
+        <a href="#" aria-label="Google" class="social-icon">G</a>
+        <a href="#" aria-label="Facebook" class="social-icon">F</a>
+        <a href="#" aria-label="Twitter" class="social-icon">T</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <p>123 Junk Street, Food City</p>
+        <p>+1 234 567 890</p>
+        <p>contact@junkfood.com</p>
+      </div>
+      <div class="footer-column">
+        <h3>Get Help</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Payment Options</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Our Stores</h3>
+        <ul>
+           <li><a href="#">India</a></li>
+          <li><a href="#">USA</a></li>
+          <li><a href="#">UK</a></li>
+          <li><a href="#">Canada</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook" class="social-icon">F</a>
+          <a href="#" aria-label="Twitter" class="social-icon">T</a>
+          <a href="#" aria-label="Instagram" class="social-icon">I</a>
+          <a href="#" aria-label="LinkedIn" class="social-icon">L</a>
+        </div>
+      </div>
+      <div class="footer-column newsletter">
+        <h3>Newsletter</h3>
+        <input type="email" placeholder="Your email id here" />
+        <button class="btn subscribe-btn">Subscribe</button>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
