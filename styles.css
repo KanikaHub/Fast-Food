@@ -728,16 +728,17 @@ footer {
 }
 
 .footer-column.newsletter input[type="email"] {
-  width: 70%;
+  width: 90%;
   padding: 0.5rem 1rem;
   border-radius: 20px 0 0 20px;
   border: none;
   outline: none;
   font-size: 1rem;
+   margin-bottom: 5px;
 }
 
 .footer-column.newsletter .subscribe-btn {
-  width: 30%;
+  width: 40%;
   padding: 0.5rem 0;
   border-radius: 0 20px 20px 0;
   border: none;
@@ -746,6 +747,7 @@ footer {
   font-weight: 600;
   cursor: pointer;
   transition: background var(--transition-speed);
+ 
 }
 
 .footer-column.newsletter .subscribe-btn:hover {
